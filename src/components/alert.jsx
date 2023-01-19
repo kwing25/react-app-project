@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function Alert() {
   return (
     <div
@@ -6,7 +8,7 @@ export default function Alert() {
     >
       <p className="text-left text-lg font-bold sm:text-center">
         DPS is closed on Wednesday January 18th due to inclement weather. Please
-        check back for 
+        check back for
         <a className="pl-1 underline" href="/">
           updates →
         </a>

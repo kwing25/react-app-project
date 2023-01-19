@@ -10,13 +10,13 @@ import dpsLogoWhite from "../assets/dpsLogoWhite.png";
 export default function Nav() {
   return (
     <>
-      <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
+      <nav className="bg-sky-600 border-gray-200 px-2 sm:px-4 py-2.5 rounded ">
         <div className="container flex flex-wrap items-center justify-between mx-auto">
           <a href="/" className="flex items-center">
             <img
               src={dpsLogoWhite}
               alt="dps logo"
-              className="w-50 h-32 bg-sky-700 p-2 "
+              className="w-40 h-auto bg-sky-600 p-2 "
             />
             {/* <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
               Denver Public Schools
@@ -26,7 +26,7 @@ export default function Nav() {
             <button
               type="button"
               data-dropdown-toggle="language-dropdown-menu"
-              className="inline-flex items-center justify-center p-2 text-sm text-gray-500 rounded cursor-pointer hover:text-gray-900 hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white"
+              className="inline-flex items-center justify-center p-2 text-sm text-gray-200 rounded cursor-pointer hover:text-gray-900 hover:bg-gray-100 "
             >
               <img
                 src={usFlagIcon}
@@ -155,7 +155,7 @@ export default function Nav() {
             <button
               data-collapse-toggle="mobile-menu-language-select"
               type="button"
-              className="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+              className="inline-flex items-center p-2 ml-1 text-sm text-white rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
               aria-controls="mobile-menu-language-select"
               aria-expanded="false"
             >
@@ -179,65 +179,71 @@ export default function Nav() {
             className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
             id="mobile-menu-language-select"
           >
-            <ul className="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+            <ul className="flex flex-col p-4 mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 text-white">
               <li
-                id="mega-menu-dropdown-button"
                 data-dropdown-toggle="mega-menu-dropdown"
                 aria-hidden="true"
-                className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                className="block py-2 pl-3 pr-4 rounded hover:text-sky-800 md:p-0 "
               >
-                About
-            
+                <a href="/">About</a>
               </li>
 
-              <li>
-                <a
-                  href="/"
-                  className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-                >
-                  Schools
-                </a>
+              <li
+                data-dropdown-toggle="mega-menu-dropdown"
+                aria-hidden="true"
+                className="block py-2 pl-3 pr-4 rounded hover:text-sky-800 md:p-0 "
+              >
+                <a href="/">Schools</a>
               </li>
-              <li>
-                <a
-                  href="/"
-                  className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-                >
-                  Services
-                </a>
+
+              <li
+                data-dropdown-toggle="mega-menu-dropdown"
+                aria-hidden="true"
+                className="block py-2 pl-3 pr-4 rounded hover:text-sky-800 md:p-0 "
+              >
+                <a href="/"> Services</a>
               </li>
-              <li>
-                <a
-                  href="/"
-                  className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-                >
-                  Learning
-                </a>
+
+              <li
+                data-dropdown-toggle="mega-menu-dropdown"
+                aria-hidden="true"
+                className="block py-2 pl-3 pr-4 rounded hover:text-sky-800 md:p-0 "
+              >
+                <a href="/"> Learning</a>
               </li>
-              <li>
-                <a
-                  href="/"
-                  className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-                >
-                  Calendars
-                </a>
+
+              <li
+                data-dropdown-toggle="mega-menu-dropdown"
+                aria-hidden="true"
+                className="block py-2 pl-3 pr-4 rounded hover:text-sky-800 md:p-0 "
+              >
+                <a href="/"> Calendars</a>
               </li>
-              <li>
-                <a
-                  href="/"
-                  className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-                >
-                  Families
-                </a>
+
+              <li
+                data-dropdown-toggle="mega-menu-dropdown"
+                aria-hidden="true"
+                className="block py-2 pl-3 pr-4 rounded hover:text-sky-800 md:p-0 "
+              >
+                <a href="/"> Families</a>
               </li>
-              <li>
+
+              <li
+                data-dropdown-toggle="mega-menu-dropdown"
+                aria-hidden="true"
+                className="block py-2 pl-3 pr-4 rounded hover:text-sky-800 md:p-0 "
+              >
+                <a href="/">Contact</a>
+              </li>
+
+              {/* <li>
                 <a
                   href="/"
                   className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                 >
                   Contact
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
