@@ -13,7 +13,7 @@ export default function Alert() {
           updates →
         </a>
       </p>
-      <button
+      {/* <button
         aria-label="Close"
         className="absolute top-1/2 right-4 -translate-y-1/2 rounded-lg bg-black/10 p-1 transition hover:bg-black/20"
       >
@@ -29,7 +29,7 @@ export default function Alert() {
             clipRule="evenodd"
           />
         </svg>
-      </button>
+      </button> */}
     </div>
   );
 }
