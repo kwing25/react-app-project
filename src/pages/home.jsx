@@ -1,5 +1,5 @@
 import React from "react";
-import dpsLogoWhite from "../assets/dpsLogoWhite.png";
+import dpsLogoWhite from "../assets/logos/dpsLogoWhite.png";
 import Blog from "../components/blog";
 import LanguageBar from "../components/languagebar";
 import "../assets/classstudents.jpeg";

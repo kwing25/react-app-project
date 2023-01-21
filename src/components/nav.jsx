@@ -1,11 +1,15 @@
 import React from "react";
 
-import cnFlagIcon from "../assets/cnFlagIcon.svg";
-import deFlagIcon from "../assets/deFlagIcon.svg";
-import itFlagIcon from "../assets/itFlagIcon.svg";
-import soFlagIcon from "../assets/soFlagIcon.svg";
-import usFlagIcon from "../assets/usFlagIcon.svg";
-import dpsLogoWhite from "../assets/dpsLogoWhite.png";
+import arFlagIcon from "../assets/icons/arFlagIcon.svg";
+import cnFlagIcon from "../assets/icons/cnFlagIcon.svg";
+import deFlagIcon from "../assets/icons/deFlagIcon.svg";
+import itFlagIcon from "../assets/icons/itFlagIcon.svg";
+import myFlagIcon from "../assets/icons/myFlagIcon.svg";
+import mxFlagIcon from "../assets/icons/mxFlagIcon.svg";
+import soFlagIcon from "../assets/icons/soFlagIcon.svg";
+import usFlagIcon from "../assets/icons/usFlagIcon.svg";
+
+import dpsLogoWhite from "../assets/logos/dpsLogoWhite.png";
 
 export default function Nav() {
   return (
@@ -69,71 +73,63 @@ export default function Nav() {
                 <li>
                   <a
                     href="/"
-                    rel="noopener noreferrer"
-                    target="_blank"
                     className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white"
                     role="menuitem"
                   >
                     <div className="inline-flex items-center">
                       <img
-                        src={deFlagIcon}
+                        src={mxFlagIcon}
                         aria-hidden="true"
                         className="h-3.5 w-3.5 rounded-full mr-2"
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 512 512"
-                        alt="Deutsch"
+                        alt="Español"
                       />
-                      Deutsch
+                      Español
                     </div>
                   </a>
                 </li>
                 <li>
                   <a
                     href="/"
-                    rel="noopener noreferrer"
-                    target="_blank"
                     className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white"
                     role="menuitem"
                   >
                     <div className="inline-flex items-center">
                       <img
-                        src={itFlagIcon}
+                        src={arFlagIcon}
                         aria-hidden="true"
                         className="h-3.5 w-3.5 rounded-full mr-2"
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 512 512"
-                        alt="Italiano"
+                        alt="العربية"
                       />
-                      Italiano
+                      العربية
                     </div>
                   </a>
                 </li>
                 <li>
                   <a
                     href="/"
-                    rel="noopener noreferrer"
-                    target="_blank"
                     className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white"
                     role="menuitem"
                   >
                     <div className="inline-flex items-center">
                       <img
-                        src={cnFlagIcon}
+                        src={myFlagIcon}
                         aria-hidden="true"
                         className="h-3.5 w-3.5 rounded-full mr-2"
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 512 512"
-                        alt="中文 (简体)"
+                        alt="ဗမာစာ"
                       />
-                      中文 (繁體)
+                      ဗမာစာ
                     </div>
                   </a>
                 </li>
                 <li>
                   <a
                     href="/"
-                    rel="noopener noreferrer"
-                    target="_blank"
                     className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white"
                     role="menuitem"
                   >
@@ -144,9 +140,9 @@ export default function Nav() {
                         className="h-3.5 w-3.5 rounded-full mr-2"
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 512 512"
-                        alt="Somali"
+                        alt="Soomaali"
                       />
-                      Somali
+                      Soomaali
                     </div>
                   </a>
                 </li>
@@ -235,15 +231,6 @@ export default function Nav() {
               >
                 <a href="/">Contact</a>
               </li>
-
-              {/* <li>
-                <a
-                  href="/"
-                  className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-                >
-                  Contact
-                </a>
-              </li> */}
             </ul>
           </div>
           <div className="flex md:order-3">

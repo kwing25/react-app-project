@@ -1,9 +1,9 @@
 import React from "react";
-import dpsLogoWhite from "../assets/dpsLogoWhite.png";
+import dpsLogoWhite from "../assets/logos/dpsLogoWhite.png";
 
 export default function Footer() {
   return (
-    <footer className="text-white bg-sky-600">
+    <footer className="text-white bg-[url('https://images.unsplash.com/photo-1603033156166-2ae22eb2b7e2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=5038&q=80)')] bg-bottom">
       <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
         <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
           <a
@@ -17,7 +17,6 @@ export default function Footer() {
               alt="dps logo"
               className="w-50 h-32 text-white p-2 "
             />
-            {/* <span className="ml-3 text-xl">Denver Public Schools</span> */}
           </a>
         </div>
         <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
